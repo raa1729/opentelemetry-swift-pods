@@ -16,5 +16,7 @@ Pod::Spec.new do |spec|
     spec.module_name = "OpenTelemetryInstrumentation"
     spec.dependency 'OpenTelemetry-Swift-Api'
     spec.dependency 'OpenTelemetry-Swift-Sdk'
+
+    spec.pod_target_xcconfig = { "OTHER_SWIFT_FLAGS" => "-module-name OpenTelemetryApi -package-name opentelemetry_swift" }
   end
   
