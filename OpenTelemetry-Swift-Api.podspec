@@ -8,7 +8,7 @@ Pod::Spec.new do |spec|
   spec.license = { :type => "Apache 2.0", :file => "LICENSE" }
   spec.authors = "OpenTelemetry Authors"
 
-  spec.source = { :git => "https://github.com/raa1729/opentelemetry-swift.git", :tag => spec.version.to_s }
+  spec.source = { :git => "https://github.com/raa1729/opentelemetry-swift-pods.git" }
   spec.source_files = "Sources/OpenTelemetryApi/**/*.swift"
 
   spec.swift_version = "5.10"
