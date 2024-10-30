@@ -3,18 +3,16 @@ Pod::Spec.new do |spec|
   spec.version = "1.10.1"
   spec.summary = "Swift OpenTelemetryApi"
 
-  spec.homepage = "https://github.com/open-telemetry/opentelemetry-swift"
+  spec.homepage = "https://github.com/raa1729/opentelemetry-swift"
   spec.documentation_url = "https://opentelemetry.io/docs/languages/swift"
   spec.license = { :type => "Apache 2.0", :file => "LICENSE" }
   spec.authors = "OpenTelemetry Authors"
 
-  spec.source = { :git => "https://github.com/open-telemetry/opentelemetry-swift.git", :tag => spec.version.to_s }
+  spec.source = { :git => "https://github.com/raa1729/opentelemetry-swift.git", :tag => spec.version.to_s }
   spec.source_files = "Sources/OpenTelemetryApi/**/*.swift"
 
   spec.swift_version = "5.10"
   spec.ios.deployment_target = "13.0"
-  spec.tvos.deployment_target = "13.0"
-  spec.watchos.deployment_target = "6.0"
   spec.module_name = "OpenTelemetryApi"
   # This is necessary because we use the `package` keyword to access some properties in `OpenTelemetryApi`
   # This keyword was introduced in Swift 5.9 and it's tightly bound to SPM.
