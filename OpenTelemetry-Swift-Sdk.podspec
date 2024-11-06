@@ -16,4 +16,5 @@ Pod::Spec.new do |spec|
   spec.module_name = "OpenTelemetrySdk"
   
   spec.dependency 'OpenTelemetry-Swift-Api'
+  spec.dependency 'Thrift'
 end
