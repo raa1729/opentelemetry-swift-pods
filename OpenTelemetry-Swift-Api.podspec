@@ -3,7 +3,7 @@ Pod::Spec.new do |spec|
   spec.version = "1.10.1"
   spec.summary = "Swift OpenTelemetryApi"
 
-  spec.homepage = "https://github.com/raa1729/opentelemetry-swift"
+  spec.homepage = "https://github.com/raa1729/opentelemetry-swift-pods"
   spec.documentation_url = "https://opentelemetry.io/docs/languages/swift"
   spec.license = { :type => "Apache 2.0", :file => "LICENSE" }
   spec.authors = "OpenTelemetry Authors"

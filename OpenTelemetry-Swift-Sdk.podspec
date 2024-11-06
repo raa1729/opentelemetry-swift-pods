@@ -3,7 +3,7 @@ Pod::Spec.new do |spec|
   spec.version = "1.10.1"
   spec.summary = "Swift OpenTelemetrySDK"
 
-  spec.homepage = "https://github.com/raa1729/opentelemetry-swift"
+  spec.homepage = "https://github.com/raa1729/opentelemetry-swift-pods"
   spec.documentation_url = "https://opentelemetry.io/docs/languages/swift"
   spec.license = { :type => "Apache 2.0", :file => "LICENSE" }
   spec.authors = "OpenTelemetry Authors"
@@ -16,4 +16,5 @@ Pod::Spec.new do |spec|
   spec.module_name = "OpenTelemetrySdk"
   
   spec.dependency 'OpenTelemetry-Swift-Api'
+  spec.dependency 'Thrift-swift3', :git => 'git@github.com:apache/thrift.git', :branch => 'master'
 end
