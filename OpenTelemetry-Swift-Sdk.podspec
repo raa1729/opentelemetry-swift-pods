@@ -17,4 +17,5 @@ Pod::Spec.new do |spec|
   
   spec.dependency 'OpenTelemetry-Swift-Api'
   spec.dependency 'Thrift'
+  spec.dependency 'SwiftProtobuf'
 end
